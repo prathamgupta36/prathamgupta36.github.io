@@ -15,7 +15,7 @@ export default function Footer() {
         Template by Elias Schneider
       </a>
       <a
-        href="https://github.com/prathamgupta36/guptapratham.com"
+        href="https://github.com/prathamgupta36/prathamgupta36.github.io"
         target="_blank"
         className="text-sm"
       >

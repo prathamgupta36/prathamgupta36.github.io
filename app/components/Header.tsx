@@ -7,7 +7,7 @@ export default function Header() {
         <Image
           height={40}
           width={40}
-          src="https://raw.githubusercontent.com/prathamgupta36/guptapratham.com/main/public/images/logo.png"
+          src="https://raw.githubusercontent.com/prathamgupta36/prathamgupta36.github.io/main/public/images/logo.png"
           alt="Pratham Gupta Logo"
         />
         <h1 className="ml-2 text-2xl font-bold">

@@ -27,7 +27,7 @@ export default async function Home() {
       <div className="square-background mt-20 flex shrink-0 items-center justify-center md:mt-0 md:h-[70vh]">
         <div className="container grid grid-cols-1 md:grid-cols-2">
           <div className="h-[150px] w-[150px] rounded-[2rem] bg-white md:h-[300px] md:w-[300px]">
-            <Image height={300} width={300} src="https://raw.githubusercontent.com/prathamgupta36/guptapratham.com/main/public/images/mine.png" alt="" />
+            <Image height={300} width={300} src="https://raw.githubusercontent.com/prathamgupta36/prathamgupta36.github.io/main/public/images/mine.png" alt="" />
           </div>
 
           <div className="mt-10 w-full md:mt-0">
@@ -55,7 +55,7 @@ export default async function Home() {
               </IconButton>
               <IconButton
                 target="_blank"
-                href="mailto:pratham@guptapratham.com"
+                href="mailto:pratham@prathamgupta36.github.io"
               >
                 <HiMail size={20} />
               </IconButton>

@@ -6,7 +6,7 @@ export const projects: Project[] = [
     name: "CTF Archive",
     description:
       "This is the world's largest comprehensive collection of challenges from past CTF competitions. The challenges are stored with REHOST details and can be run on pwn.college website.",
-    image: "https://raw.githubusercontent.com/prathamgupta36/guptapratham.com/main/public/images/projects/ctf-archive.png",
+    image: "https://raw.githubusercontent.com/prathamgupta36/prathamgupta36.github.io/main/public/images/projects/ctf-archive.png",
     url: "https://pwn.college/ctf-archive/",
     githubRepository: "pwncollege/ctf-archive",
   },
@@ -14,7 +14,7 @@ export const projects: Project[] = [
     name: "NASA's Astro Academy",
     description:
       "This project seeks to create an engaging online educational game inspired by NASA's groundbreaking Psyche Mission, a remarkable space exploration endeavor.",
-    image: "https://raw.githubusercontent.com/prathamgupta36/guptapratham.com/main/public/images/projects/astro-academy.png",
+    image: "https://raw.githubusercontent.com/prathamgupta36/prathamgupta36.github.io/main/public/images/projects/astro-academy.png",
     url: "https://psyche.ssl.berkeley.edu/get-involved/capstone-projects/capstone-projects-tungsten-class/web-game-astro-academy-asu/",
     githubRepository: "MissionToPsyche/tungsten_12g_web_game",
   },
@@ -22,7 +22,7 @@ export const projects: Project[] = [
     name: "Quantum Supremacy",
     description:
       "This is a quantum mechanics game is designed to help players get an intuition for gate-model quantum computing, quantum entanglement, and measurement!",
-    image: "https://raw.githubusercontent.com/prathamgupta36/guptapratham.com/main/public/images/projects/quantum-supremacy.png",
+    image: "https://raw.githubusercontent.com/prathamgupta36/prathamgupta36.github.io/main/public/images/projects/quantum-supremacy.png",
     url: "iQuHACK/2021_Team-47",
   },
 ];
