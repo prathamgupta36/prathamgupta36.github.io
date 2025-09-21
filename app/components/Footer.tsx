@@ -7,12 +7,12 @@ export default function Footer() {
     <div className="container mb-10 mt-24 flex justify-between">
       <p className="text-sm">{year} Pratham Gupta</p>
       <a
-        href="https://github.com/stonith404/eliasschneider.com"
+        href="https://github.com/stonith404"
         target="_blank"
         rel="noopener noreferrer"
         className="text-sm"
       >
-        Template by Elias Schneider
+        Inspired by Elias Schneider
       </a>
       <a
         href="https://github.com/prathamgupta36/prathamgupta36.github.io"
