@@ -1,6 +1,7 @@
 import { Project } from "@/types/project.type";
 import { Skill } from "@/types/skill.type";
 
+
 export const projects: Project[] = [
   {
     name: "CTF Archive",
@@ -21,9 +22,16 @@ export const projects: Project[] = [
   {
     name: "Quantum Supremacy",
     description:
-      "This is a quantum mechanics game is designed to help players get an intuition for gate-model quantum computing, quantum entanglement, and measurement!",
+      "This is a quantum computing game designed to help players get an intuition for gate-model quantum computing, quantum entanglement, and measurement!",
     image: "https://raw.githubusercontent.com/prathamgupta36/prathamgupta36.github.io/main/public/images/projects/quantum-supremacy.png",
-    url: "iQuHACK/2021_Team-47",
+    url: "https://github.com/iQuHACK/2021_Team-47",
+  },
+  {
+    name: "C++ Parsing Compiler",
+    description:
+      "Developed the compiler to work efficiently by making recursive calls to various functions according to the grammar of the language that was being compiled.",
+    image: "https://www.svgrepo.com/show/78134/c-logo.svg",
+    url: "",
   },
 ];
 
@@ -34,13 +42,11 @@ export const skills: Skill = {
     { name: "C/C++", icon: "cplusplus-plain" },
     { name: "C#", icon: "csharp-plain" },
     { name: "Swift", icon: "swift-plain" },
-    { name: "R", icon: "r-original" },
-    { name: "Qiskit", icon: "devicon-plain" }, // Generic icon
-    { name: "Cirq", icon: "devicon-plain" }, // Generic icon
-    { name: "Q#", icon: "devicon-plain" }, // Generic icon
-    { name: "Scheme", icon: "devicon-plain" }, // Generic icon
-    { name: "Prolog", icon: "devicon-plain" }, // Generic icon
-    { name: "Verilog", icon: "devicon-plain" }, // Generic icon
+    { name: "R", icon: "/icons/r.svg" },
+    { name: "Q#", icon: "/icons/qsharp.svg" },         // Microsoft Q#
+    // { name: "Scheme", icon: "/icons/racket.svg" },     // or scheme.svg if you prefer
+    // { name: "Prolog", icon: "/icons/swipl.png" },
+    { name: "Verilog", icon: "/icons/verilog.svg" },
   ],
   "Databases, Applications, and OS": [
     { name: "Linux", icon: "linux-plain" },
@@ -48,17 +54,24 @@ export const skills: Skill = {
     { name: "macOS", icon: "apple-original" },
     { name: "Git", icon: "git-plain" },
     { name: "Github", icon: "github-original" },
-    { name: "SQL", icon: "mysql-plain" },
+    { name: "SQL", icon: "mysql-plain" }, // or "sql.svg" / "postgresql-plain" if you want generic/specific
     { name: "Jupyter", icon: "jupyter-plain" },
     { name: "PyTorch", icon: "pytorch-original" },
     { name: "TensorFlow", icon: "tensorflow-original" },
-    { name: "IDA", icon: "devicon-plain" }, // Generic icon
-    { name: "Ghidra", icon: "devicon-plain" }, // Generic icon
-    { name: "Angr", icon: "devicon-plain" }, // Generic icon
+  ],
+  "Quantum (frameworks & SDKs)": [
+  { name: "Qiskit", icon: "/icons/qiskit.svg" },
+  { name: "Cirq", icon: "/icons/cirq.svg" },
+  { name: "Microsoft Quantum Development Kit", icon: "/icons/qdk.svg" },
+  ],
+  "Reverse engineering & binary analysis": [
+    { name: "IDA", icon: "/icons/ida-pro.png" },     // Hex-Rays / IDA
+    { name: "Ghidra", icon: "/icons/ghidra.svg" },   // Ghidra project logo
+    { name: "Angr", icon: "/icons/angry_face.png" },       // angr project logo
   ],
   "Cloud and Cluster Computing": [
     { name: "Google Cloud", icon: "googlecloud-plain" },
-    { name: "AWS", icon: "amazonwebservices-original" },
-    { name: "ML Model Server", icon: "devicon-plain" }, // Generic icon
+    { name: "AWS", icon: "/icons/aws.svg" },
+    { name: "Model Context Protocol", icon: "/icons/model-context-protocol.svg" }, // custom or generic icon
   ],
 };

@@ -24,6 +24,9 @@
 }
 
 @layer components {
+  .custom-svg-icon[src$=".svg"] {
+    filter: grayscale(1) brightness(0) invert(1);   
+  }
   .text-gradient {
     @apply animate-text bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent;
   }
