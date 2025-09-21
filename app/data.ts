@@ -1,5 +1,6 @@
 import { Project } from "@/types/project.type";
 import { Skill } from "@/types/skill.type";
+import { Achievement } from "@/types/achievement.type";
 
 export const communityProjects: Project[] = [
   {
@@ -62,6 +63,7 @@ export const skills: Skill = {
     // { name: "Scheme", icon: "/icons/racket.svg" },     // or scheme.svg if you prefer
     // { name: "Prolog", icon: "/icons/swipl.png" },
     { name: "Verilog", icon: "/icons/verilog.svg" },
+    { name: "Matlab", icon: "/icons/matlab.svg" },
   ],
   "Databases, Applications, and OS": [
     { name: "Linux", icon: "linux-plain" },
@@ -90,3 +92,13 @@ export const skills: Skill = {
     { name: "Model Context Protocol", icon: "/icons/model-context-protocol.svg" }, // custom or generic icon
   ],
 };
+
+export const achievements: Achievement[] = [
+  {
+    name: "Qiskit Advocate",
+    description:
+      "Recognized by IBM for my contributions to the Qiskit community and my expertise in quantum computing.",
+    icon: "/icons/qiskit.svg",
+    url: "https://qiskit.org/advocates",
+  },
+];

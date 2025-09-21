@@ -8,9 +8,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
-import { projects, skills, communityProjects } from "../data";  
+import { projects, skills, communityProjects, achievements } from "../data";  
 import ProjectCard from "./ProjectCard";
 import SkillCard from "./SkillCard";
+import AchievementCard from "../components/AchievementCard";
 
 export const metadata: Metadata = {
   title: "Pratham Gupta",
@@ -105,6 +106,18 @@ export default async function Home() {
             {communityProjects.map((project) => (
               <AnimateOnScroll key={project.name}>
                 <ProjectCard project={project} />
+              </AnimateOnScroll>
+            ))}
+          </div>
+        </Section>
+        <Section
+          title="Achievements & Recognitions"
+          subTitle="Awards and Certifications"
+        >
+          <div className="grid grid-cols-1 gap-5">
+            {achievements.map((achievement) => (
+              <AnimateOnScroll key={achievement.name}>
+                <AchievementCard achievement={achievement} />
               </AnimateOnScroll>
             ))}
           </div>
