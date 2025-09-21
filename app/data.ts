@@ -1,6 +1,21 @@
 import { Project } from "@/types/project.type";
 import { Skill } from "@/types/skill.type";
 
+export const communityProjects: Project[] = [
+  {
+    name: "Kenya Rainwater Harvesting w/ Engineers Without Borders",
+    description:
+      "Lead the designing and development of gutter as well as filtration systems for clean water in Naki, Kenya. The project provided a rainwater harvesting system storing 20,000 gallons of water for year round supply.",
+    image: "https://epics.engineering.asu.edu/wp-content/uploads/sites/20/2025/03/GlobalEPICS-Artwork-2022-Black-copy-1-1.jpg",
+    url: "https://epics.engineering.asu.edu/2020/09/ewb-international/",
+  },
+  {
+    name: "Nepal Pyrolyzer",
+    description:
+      "Created biochar production in Nepal by enhancing kiln-based pyrolysis for high temperatures and cost-efficiency. Provided communities with sustainable energy solutions and elevating agricultural yields.",
+    url: "https://epics.engineering.asu.edu/2020/09/nepal-pyrolyzer/",
+  },
+];
 
 export const projects: Project[] = [
   {

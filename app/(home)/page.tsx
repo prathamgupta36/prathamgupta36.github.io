@@ -8,7 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
-import { projects, skills } from "../data";
+import { projects, skills, communityProjects } from "../data";  
 import ProjectCard from "./ProjectCard";
 import SkillCard from "./SkillCard";
 
@@ -91,6 +91,18 @@ export default async function Home() {
         <Section title="Projects" subTitle="My Favourite Projects">
           <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
             {projects.map((project) => (
+              <AnimateOnScroll key={project.name}>
+                <ProjectCard project={project} />
+              </AnimateOnScroll>
+            ))}
+          </div>
+        </Section>
+        <Section
+          title="Community & Volunteer Work"
+          subTitle="Making an Impact"
+        >
+          <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+            {communityProjects.map((project) => (
               <AnimateOnScroll key={project.name}>
                 <ProjectCard project={project} />
               </AnimateOnScroll>
