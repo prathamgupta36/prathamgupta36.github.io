@@ -8,14 +8,11 @@ on:
     - cron: "0 11 * * *"
   workflow_dispatch:
     inputs:
-      environment:
-        description: 'Environment to deploy to'
+      reason:
+        description: 'Reason for manual deployment'
         required: false
-        default: 'production'
-        type: choice
-        options:
-          - production
-          - staging
+        default: 'Manual deployment triggered'
+        type: string
 
 permissions:
   contents: read
