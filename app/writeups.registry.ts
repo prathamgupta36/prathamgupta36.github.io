@@ -60,6 +60,11 @@ export const CTF_META: CtfMeta[] = [
     ctf: "LakeCTF Quals 25-26",
     team: "CTF Academy",
   },
+  {
+    year: 2025,
+    ctf: "BuckeyeCTF 2025"
+    team: "Shellphish",
+  },
 ];
 
 export const WRITEUPS: WriteupEntry[] = [
@@ -152,5 +157,32 @@ export const WRITEUPS: WriteupEntry[] = [
       "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2025/lakectf2025/crypto/cognitiveremindercall/WRITEUP.md",
     repoUrl:
       "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2025/lakectf2025/crypto/cognitiveremindercall",
+  },
+    {
+    year: 2025,
+    ctf: "BuckeyeCTF 2025",
+    challenge: "Polyglot",
+    mdUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2025/buckeyectf2025/polyglot/WRITEUP.md",
+    repoUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2025/buckeyectf2025/polyglot",
+  },
+    {
+    year: 2025,
+    ctf: "BuckeyeCTF 2025",
+    challenge: "befuddled",
+    mdUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2025/buckeyectf2025/rev/befuddled/WRITEUP.md",
+    repoUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2025/buckeyectf2025/rev/befuddled",
+  },
+    {
+    year: 2025,
+    ctf: "BuckeyeCTF 2025",
+    challenge: "Square Cipher",
+    mdUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2025/buckeyectf2025/rev/squarecipher/WRITEUP.md",
+    repoUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2025/buckeyectf2025/rev/squarecipher",
   }
 ];
