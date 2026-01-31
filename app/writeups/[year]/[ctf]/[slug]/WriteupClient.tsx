@@ -6,7 +6,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
-import type { WriteupEntry } from "@/writeups.registry";
+import { getTeamForEntry, type WriteupEntry } from "@/writeups.registry";
 
 type WriteupClientProps = {
   entry: WriteupEntry;
@@ -52,6 +52,7 @@ const normalizeMarkdownUrl = (url: string) => {
 export default function WriteupClient({ entry }: WriteupClientProps) {
   const [markdown, setMarkdown] = useState("");
   const [error, setError] = useState("");
+  const team = getTeamForEntry(entry);
 
   useEffect(() => {
     let cancelled = false;
@@ -92,10 +93,11 @@ export default function WriteupClient({ entry }: WriteupClientProps) {
           Back to writeups
         </Link>
         <h1 className="mt-4 text-3xl font-bold">{entry.challenge}</h1>
-        <div className="mt-3 flex flex-wrap gap-3 text-sm text-gray-300">
+        <div className="mt-3 flex flex-wrap items-center gap-3 text-sm text-gray-300">
           <span>{entry.year}</span>
           <span>•</span>
           <span>{entry.ctf}</span>
+          {team && <span className="team-badge">{team}</span>}
         </div>
         <div className="mt-4 flex flex-wrap gap-4 text-sm">
           <a href={entry.mdUrl} target="_blank" rel="noreferrer">

@@ -42,6 +42,9 @@
       linear-gradient(to right, #151515 1px, transparent 1px);
     background-size: 100px 100px;
   }
+  .team-badge {
+    @apply inline-flex items-center rounded-full border border-[#242424] bg-[#101010] px-2.5 py-0.5 text-xs text-gray-200;
+  }
   .writeup-content {
     @apply leading-7 text-gray-200;
   }

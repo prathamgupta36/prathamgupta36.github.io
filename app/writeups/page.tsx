@@ -2,6 +2,7 @@ import Link from "next/link";
 import {
   WRITEUPS,
   getCtfSlug,
+  getTeamForEntry,
   getWriteupSlug,
   type WriteupEntry,
 } from "@/writeups.registry";
@@ -9,6 +10,7 @@ import {
 type GroupedCtf = {
   name: string;
   slug: string;
+  team?: string;
   entries: WriteupEntry[];
 };
 
@@ -32,11 +34,16 @@ const groupWriteups = (entries: WriteupEntry[]): GroupedYear[] => {
       byCtf.set(ctfSlug, {
         name: entry.ctf,
         slug: ctfSlug,
+        team: getTeamForEntry(entry),
         entries: [],
       });
     }
 
-    byCtf.get(ctfSlug)!.entries.push(entry);
+    const ctfGroup = byCtf.get(ctfSlug)!;
+    if (!ctfGroup.team) {
+      ctfGroup.team = getTeamForEntry(entry);
+    }
+    ctfGroup.entries.push(entry);
   }
 
   return Array.from(byYear.entries())
@@ -78,12 +85,15 @@ export default function WriteupsIndexPage() {
             <section key={year}>
               <h2 className="text-2xl font-bold">{year}</h2>
               <div className="mt-6 space-y-6">
-                {ctfs.map(({ name, slug, entries }) => (
+                {ctfs.map(({ name, slug, team, entries }) => (
                   <div
                     key={slug}
                     className="rounded-2xl border border-[#151515] p-6"
                   >
-                    <h3 className="text-lg font-semibold">{name}</h3>
+                    <h3 className="text-lg font-semibold">
+                      {name}
+                      {team && <span className="team-badge ml-2">{team}</span>}
+                    </h3>
                     <ul className="mt-4 grid gap-3 text-gray-200 sm:grid-cols-2">
                       {entries.map((entry) => {
                         const challengeSlug = getWriteupSlug(entry);

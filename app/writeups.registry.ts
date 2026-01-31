@@ -8,6 +8,13 @@ export type WriteupEntry = {
   repoUrl?: string;
 };
 
+export type CtfMeta = {
+  year: number;
+  ctf: string;
+  ctfSlug?: string;
+  team?: string;
+};
+
 const slugify = (value: string) => {
   return value
     .toLowerCase()
@@ -23,6 +30,37 @@ export const getWriteupSlug = (entry: WriteupEntry) => {
 export const getCtfSlug = (entry: WriteupEntry) => {
   return slugify(entry.ctfSlug ?? entry.ctf);
 };
+
+const getCtfMetaSlug = (meta: CtfMeta) => {
+  return slugify(meta.ctfSlug ?? meta.ctf);
+};
+
+export const getTeamForEntry = (entry: WriteupEntry) => {
+  const slug = getCtfSlug(entry);
+  const meta = CTF_META.find(
+    (item) => item.year === entry.year && getCtfMetaSlug(item) === slug,
+  );
+  return meta?.team;
+};
+
+// CTF-level metadata (applies to all writeups for that event/year).
+export const CTF_META: CtfMeta[] = [
+  {
+    year: 2026,
+    ctf: "UofTCTF",
+    team: "CTF Academy",
+  },
+  {
+    year: 2026,
+    ctf: "0xl4ugh",
+    team: "CTF Academy",
+  },
+  {
+    year: 2025,
+    ctf: "LakeCTF Quals 25-26",
+    team: "CTF Academy",
+  },
+];
 
 export const WRITEUPS: WriteupEntry[] = [
   {
