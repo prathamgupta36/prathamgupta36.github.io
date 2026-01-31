@@ -42,4 +42,47 @@
       linear-gradient(to right, #151515 1px, transparent 1px);
     background-size: 100px 100px;
   }
+  .writeup-content {
+    @apply leading-7 text-gray-200;
+  }
+  .writeup-content h1 {
+    @apply mt-8 text-3xl font-bold text-white;
+  }
+  .writeup-content h2 {
+    @apply mt-8 text-2xl font-bold text-white;
+  }
+  .writeup-content h3 {
+    @apply mt-6 text-xl font-semibold text-white;
+  }
+  .writeup-content p {
+    @apply mt-4;
+  }
+  .writeup-content a {
+    @apply underline decoration-2;
+  }
+  .writeup-content ul {
+    @apply mt-4 list-disc pl-6;
+  }
+  .writeup-content ol {
+    @apply mt-4 list-decimal pl-6;
+  }
+  .writeup-content blockquote {
+    @apply mt-4 border-l-2 border-purple-600 pl-4 text-gray-300;
+  }
+  .writeup-content code {
+    @apply rounded bg-[#111111] px-1 py-0.5 text-sm text-pink-300;
+  }
+  .writeup-content pre {
+    @apply mt-4 overflow-x-auto rounded-xl border border-[#222222] bg-[#0d0d0d] p-4 text-sm;
+  }
+  .writeup-content pre code {
+    @apply bg-transparent p-0 text-gray-200;
+  }
+  .writeup-content table {
+    @apply mt-4 w-full border-collapse text-sm;
+  }
+  .writeup-content th,
+  .writeup-content td {
+    @apply border border-[#222222] p-2;
+  }
 }

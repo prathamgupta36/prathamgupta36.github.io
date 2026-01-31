@@ -1,6 +1,7 @@
 // app/layout.tsx
 import "@/styles/globals.css";
-import Footer from "./components/Footer";
+import "katex/dist/katex.min.css";
+import ConditionalFooter from "./components/ConditionalFooter";
 import Header from "./components/Header";
 
 export default function DashboardLayout({
@@ -19,7 +20,7 @@ export default function DashboardLayout({
       <body suppressHydrationWarning>
         <Header />
         <div>{children}</div>
-        <Footer />
+        <ConditionalFooter />
       </body>
     </html>
   );
