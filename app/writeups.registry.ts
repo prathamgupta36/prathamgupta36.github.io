@@ -62,7 +62,7 @@ export const CTF_META: CtfMeta[] = [
   },
   {
     year: 2025,
-    ctf: "BuckeyeCTF 2025"
+    ctf: "BuckeyeCTF 2025",
     team: "Shellphish",
   },
 ];
