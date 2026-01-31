@@ -61,4 +61,40 @@ export const WRITEUPS: WriteupEntry[] = [
     repoUrl:
       "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/uoftctf2026/leakdd",
   },
+  {
+    year: 2026,
+    ctf: "0xl4ugh",
+    challenge: "Bitcoin",
+    mdUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/0xl4ugh/crypto/bitcoin/WRITEUP.md",
+    repoUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/0xl4ugh/crypto/bitcoin",
+  },
+  {
+    year: 2026,
+    ctf: "0xl4ugh",
+    challenge: "Dorya",
+    mdUrl:
+      "https://raw.githubusercontent.com/prathamgupta36/CTF-Writeups/main/2026/0xl4ugh/crypto/dorya/WRITEUP.md",
+    repoUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/uoftctf2026/orca",
+  },
+  {
+    year: 2026,
+    ctf: "0xl4ugh",
+    challenge: "Spiral Floats",
+    mdUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/0xl4ugh/crypto/spiralfloats/WRITEUP.md",
+    repoUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/0xl4ugh/crypto/spiralfloats",
+  },
+  {
+    year: 2026,
+    ctf: "0xl4ugh",
+    challenge: "4llD4y",
+    mdUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/0xl4ugh/web/4llD4y/WRITEUP.md",
+    repoUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/0xl4ugh/web/4llD4y",
+  },
 ];
