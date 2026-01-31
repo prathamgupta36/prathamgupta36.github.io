@@ -97,4 +97,22 @@ export const WRITEUPS: WriteupEntry[] = [
     repoUrl:
       "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/0xl4ugh/web/4llD4y",
   },
+    {
+    year: 2025,
+    ctf: "LakeCTF Quals 25-26",
+    challenge: "Ez Part",
+    mdUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2025/lakectf2025/crypto/ezpart/WRITEUP.md",
+    repoUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2025/lakectf2025/crypto/ezpart",
+  },
+    {
+    year: 2025,
+    ctf: "LakeCTF Quals 25-26",
+    challenge: "Cognitive Reminder Call",
+    mdUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2025/lakectf2025/crypto/cognitiveremindercall/WRITEUP.md",
+    repoUrl:
+      "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2025/lakectf2025/crypto/cognitiveremindercall",
+  }
 ];
