@@ -47,6 +47,11 @@ export const getTeamForEntry = (entry: WriteupEntry) => {
 export const CTF_META: CtfMeta[] = [
   {
     year: 2026,
+    ctf: "LA CTF 2026",
+    team: "Shellphish",
+  },
+  {
+    year: 2026,
     ctf: "UofTCTF",
     team: "CTF Academy",
   },
@@ -68,6 +73,152 @@ export const CTF_META: CtfMeta[] = [
 ];
 
 export const WRITEUPS: WriteupEntry[] = [
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Lazy Bigrams",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/crypto/lazybigrams/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/crypto/lazybigrams",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Not So Lazy Trigrams",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/crypto/notsolazytrigrams/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/crypto/notsolazytrigrams",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Sisyphus",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/crypto/sisyphus/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/crypto/sisyphus",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Six Seven",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/crypto/sixseven/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/crypto/sixseven",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Six Seven Again",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/crypto/sixsevenagain/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/crypto/sixsevenagain",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Smol Cats",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/crypto/smolcats/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/crypto/smolcats",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Spreading Secrets",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/crypto/spreadingsecrets/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/crypto/spreadingsecrets",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "The Clock",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/crypto/theclock/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/crypto/theclock",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Misdirection",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/crypto/misdirection/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/crypto/misdirection",
+  },
+
+  // Pwn (2 challenges)
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "ScrabASM",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/pwn/srabasm/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/pwn/srabasm",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Tic-Tac-No",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/pwn/tictactoe/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/pwn/tictactoe",
+  },
+
+  // Rev (6 challenges)
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "ooo",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/rev/ooo/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/rev/ooo",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "The Fish",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/rev/thefish/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/rev/thefish",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Starless C",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/rev/starlessc/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/rev/starlessc",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "LACTF 1986",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/rev/lactf1986/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/rev/lactf1986",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Flag Finder",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/rev/flagfinder/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/rev/flagfinder",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "The Three-SAT Problem",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/rev/threesatproblem/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/rev/threesatproblem",
+  },
+
+  // Web (3 challenges)
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Clawcha",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/web/clawcha/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/web/clawcha",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Job Board",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/web/jobboard/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/web/jobboard",
+  },
+  {
+    year: 2026,
+    ctf: "LA CTF 2026",
+    challenge: "Single Trust",
+    mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/lactf2026/web/singletrust/WRITEUP.md",
+    repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/files/2026/lactf2026/web/singletrust",
+  },
   {
     year: 2026,
     ctf: "UofTCTF",
