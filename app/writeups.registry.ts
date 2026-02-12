@@ -53,7 +53,7 @@ export const CTF_META: CtfMeta[] = [
   {
     year: 2026,
     ctf: "UofTCTF",
-    team: "CTF Academy",
+    team: "Shellphish",
   },
   {
     year: 2026,
