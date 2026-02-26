@@ -47,7 +47,7 @@ export const getTeamForEntry = (entry: WriteupEntry) => {
 export const CTF_META: CtfMeta[] = [
   {
     year: 2026,
-    ctf: "CactusCon CTF 2026",
+    ctf: "CactusCon 2026",
     team: "Shellphish",
   },
   {
