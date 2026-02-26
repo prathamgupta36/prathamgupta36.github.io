@@ -52,6 +52,11 @@ export const CTF_META: CtfMeta[] = [
   },
   {
     year: 2026,
+    ctf: "CactusCon CTF 2026",
+    team: "Shellphish",
+  },
+  {
+    year: 2026,
     ctf: "UofTCTF",
     team: "Shellphish",
   },
@@ -227,6 +232,69 @@ export const WRITEUPS: WriteupEntry[] = [
       "https://raw.githubusercontent.com/prathamgupta36/CTF-Writeups/main/2026/uoftctf2026/orca/WRITEUP.md",
     repoUrl:
       "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/uoftctf2026/orca",
+  },
+  {
+    "year": 2026,
+    "ctf": "CactusCon 2026",
+    "challenge": "embracemcp",
+    "mdUrl": "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/cactuscon2026/ai/embracemcp/WRITEUP.md",
+    "repoUrl": "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/cactuscon2026/ai/embracemcp"
+  },
+  {
+    "year": 2026,
+    "ctf": "CactusCon 2026",
+    "challenge": "hiddendiscounts",
+    "mdUrl": "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/cactuscon2026/ai/hiddendiscounts/WRITEUP.md",
+    "repoUrl": "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/cactuscon2026/ai/hiddendiscounts"
+  },
+  {
+    "year": 2026,
+    "ctf": "CactusCon 2026",
+    "challenge": "MOVeit",
+    "mdUrl": "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/cactuscon2026/crypto/MOVeit/WRITEUP.md",
+    "repoUrl": "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/cactuscon2026/crypto/MOVeit"
+  },
+  {
+    "year": 2026,
+    "ctf": "CactusCon 2026",
+    "challenge": "legendary",
+    "mdUrl": "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/cactuscon2026/crypto/legendary/WRITEUP.md",
+    "repoUrl": "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/cactuscon2026/crypto/legendary"
+  },
+  {
+    "year": 2026,
+    "ctf": "CactusCon 2026",
+    "challenge": "schwisfty",
+    "mdUrl": "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/cactuscon2026/crypto/schwisfty/WRITEUP.md",
+    "repoUrl": "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/cactuscon2026/crypto/schwisfty"
+  },
+  {
+    "year": 2026,
+    "ctf": "CactusCon 2026",
+    "challenge": "notepadv3",
+    "mdUrl": "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/cactuscon2026/pwn/notepadv3/WRITEUP.md",
+    "repoUrl": "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/cactuscon2026/pwn/notepadv3"
+  },
+  {
+    "year": 2026,
+    "ctf": "CactusCon 2026",
+    "challenge": "dumpdrop",
+    "mdUrl": "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/cactuscon2026/web/dumpdrop/WRITEUP.md",
+    "repoUrl": "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/cactuscon2026/web/dumpdrop"
+  },
+  {
+    "year": 2026,
+    "ctf": "CactusCon 2026",
+    "challenge": "linkstack",
+    "mdUrl": "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/cactuscon2026/web/linkstack/WRITEUP.md",
+    "repoUrl": "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/cactuscon2026/web/linkstack"
+  },
+  {
+    "year": 2026,
+    "ctf": "CactusCon 2026",
+    "challenge": "prosforhire",
+    "mdUrl": "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/cactuscon2026/web/prosforhire/WRITEUP.md",
+    "repoUrl": "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/cactuscon2026/web/prosforhire"
   },
   {
     year: 2026,
