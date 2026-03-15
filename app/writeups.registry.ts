@@ -52,6 +52,11 @@ export const CTF_META: CtfMeta[] = [
   },
   {
     year: 2026,
+    ctf: "tkbctf5",
+    team: "alchemy1729",
+  },
+  {
+    year: 2026,
     ctf: "LA CTF 2026",
     team: "Shellphish",
   },
@@ -78,6 +83,143 @@ export const CTF_META: CtfMeta[] = [
 ];
 
 export const WRITEUPS: WriteupEntry[] = [
+  {
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "Faulty AES",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/crypto/faulty-aes/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/crypto/faulty-aes",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "Double Hint RSA",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/crypto/double-hint-rsa/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/crypto/double-hint-rsa",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "Random In The Future",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/crypto/random-in-the-future/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/crypto/random-in-the-future",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "Single Hint RSA",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/crypto/single-hint-rsa/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/crypto/single-hint-rsa",
+},
+
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "javajail",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/misc/javajail/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/misc/javajail",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "Linear DoS",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/misc/linear-dos/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/misc/linear-dos",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "yet-another-injection-challenge",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/misc/yet-another-injection-challenge/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/misc/yet-another-injection-challenge",
+},
+
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "BSS BOF",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/pwn/bss-bof/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/pwn/bss-bof",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "PyFSB",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/pwn/pyfsb/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/pwn/pyfsb",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "read_exact",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/pwn/read-exact/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/pwn/read-exact",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "Stack BOF",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/pwn/stack-bof/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/pwn/stack-bof",
+},
+
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "verified-msg",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/pwn_crypto/verified-msg/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/pwn_crypto/verified-msg",
+},
+
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "BINARY IN THE FUTURE.",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/rev/binary-in-the-future/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/rev/binary-in-the-future",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "README.pdf",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/rev/readme-pdf/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/rev/readme-pdf",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "Simple Crackme",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/rev/simple-crackme/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/rev/simple-crackme",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "Dream of You",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/web/dream-of-you/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/web/dream-of-you",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "Parallel and Buffet",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/web/parallel-and-buffet/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/web/parallel-and-buffet",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "Patisserie",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/web/patisserie/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/web/patisserie",
+},
+{
+  year: 2026,
+  ctf: "tkbctf5",
+  challenge: "Secure Gate",
+  mdUrl: "https://github.com/prathamgupta36/CTF-Writeups/raw/refs/heads/main/2026/tkbctf5_2026/web/secure-gate/WRITEUP.md",
+  repoUrl: "https://github.com/prathamgupta36/CTF-Writeups/tree/main/2026/tkbctf5_2026/web/secure-gate",
+},
   {
     year: 2026,
     ctf: "LA CTF 2026",
