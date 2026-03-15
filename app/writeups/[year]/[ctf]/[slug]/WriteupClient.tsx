@@ -6,7 +6,11 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
-import { getTeamForEntry, type WriteupEntry } from "@/writeups.registry";
+import {
+  getCtfSlug,
+  getTeamForEntry,
+  type WriteupEntry,
+} from "@/writeups.registry";
 
 type WriteupClientProps = {
   entry: WriteupEntry;
@@ -53,6 +57,7 @@ export default function WriteupClient({ entry }: WriteupClientProps) {
   const [markdown, setMarkdown] = useState("");
   const [error, setError] = useState("");
   const team = getTeamForEntry(entry);
+  const markdownUrl = normalizeMarkdownUrl(entry.mdUrl);
 
   useEffect(() => {
     let cancelled = false;
@@ -62,7 +67,7 @@ export default function WriteupClient({ entry }: WriteupClientProps) {
         setError("");
         setMarkdown("");
 
-        const response = await fetch(normalizeMarkdownUrl(entry.mdUrl));
+        const response = await fetch(markdownUrl);
         if (!response.ok) {
           throw new Error(`Failed to load markdown (${response.status})`);
         }
@@ -84,7 +89,7 @@ export default function WriteupClient({ entry }: WriteupClientProps) {
     return () => {
       cancelled = true;
     };
-  }, [entry.mdUrl]);
+  }, [markdownUrl]);
 
   return (
     <main className="container py-12">
@@ -96,11 +101,18 @@ export default function WriteupClient({ entry }: WriteupClientProps) {
         <div className="mt-3 flex flex-wrap items-center gap-3 text-sm text-gray-300">
           <span>{entry.year}</span>
           <span>•</span>
-          <span>{entry.ctf}</span>
+          <Link
+            className="ctf-link"
+            href={`/writeups/${entry.year}/${encodeURIComponent(
+              getCtfSlug(entry),
+            )}`}
+          >
+            {entry.ctf}
+          </Link>
           {team && <span className="team-badge">{team}</span>}
         </div>
         <div className="mt-4 flex flex-wrap gap-4 text-sm">
-          <a href={entry.mdUrl} target="_blank" rel="noreferrer">
+          <a href={markdownUrl} target="_blank" rel="noreferrer">
             View markdown source
           </a>
           {entry.repoUrl && (

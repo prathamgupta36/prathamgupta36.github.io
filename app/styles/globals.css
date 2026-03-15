@@ -30,6 +30,12 @@
   .text-gradient {
     @apply animate-text bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent;
   }
+  .ctf-link {
+    @apply bg-none bg-clip-border text-cyan-300 decoration-cyan-400 transition-colors;
+  }
+  .ctf-link:hover {
+    @apply text-cyan-200;
+  }
   .hide-scrollbar::-webkit-scrollbar {
     display: none;
   }

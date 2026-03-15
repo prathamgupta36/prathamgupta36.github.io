@@ -46,20 +46,10 @@ const groupWriteups = (entries: WriteupEntry[]): GroupedYear[] => {
     ctfGroup.entries.push(entry);
   }
 
-  return Array.from(byYear.entries())
-    .sort(([a], [b]) => b - a)
-    .map(([year, ctfMap]) => {
-      const ctfs = Array.from(ctfMap.values())
-        .sort((a, b) => a.name.localeCompare(b.name))
-        .map((ctf) => ({
-          ...ctf,
-          entries: ctf.entries
-            .slice()
-            .sort((a, b) => a.challenge.localeCompare(b.challenge)),
-        }));
-
-      return { year, ctfs };
-    });
+  return Array.from(byYear.entries()).map(([year, ctfMap]) => ({
+    year,
+    ctfs: Array.from(ctfMap.values()),
+  }));
 };
 
 export default function WriteupsIndexPage() {
@@ -91,7 +81,12 @@ export default function WriteupsIndexPage() {
                     className="rounded-2xl border border-[#151515] p-6"
                   >
                     <h3 className="text-lg font-semibold">
-                      {name}
+                      <Link
+                        className="ctf-link"
+                        href={`/writeups/${year}/${encodeURIComponent(slug)}`}
+                      >
+                        {name}
+                      </Link>
                       {team && <span className="team-badge ml-2">{team}</span>}
                     </h3>
                     <ul className="mt-4 grid gap-3 text-gray-200 sm:grid-cols-2">
