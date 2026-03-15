@@ -3,21 +3,14 @@ import Card from "@/components/Card";
 import IconButton from "@/components/IconButton";
 import Section from "@/components/Section";
 import { capitalizeFirstLetter } from "@/utils";
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
-import { projects, skills, communityProjects, achievements } from "../data";  
+import { projects, skills, communityProjects, achievements } from "../data";
 import ProjectCard from "./ProjectCard";
 import SkillCard from "./SkillCard";
 import AchievementCard from "../components/AchievementCard";
-
-export const metadata: Metadata = {
-  title: "Pratham Gupta",
-  description:
-    "Welcome to Pratham Gupta's portfolio! Learn more about me and my projects.",
-};
 
 // Revalidate GitHub stars every 12 hours
 export const revalidate = 43200;
@@ -28,21 +21,33 @@ export default async function Home() {
       <div className="square-background mt-20 flex shrink-0 items-center justify-center md:mt-0 md:h-[70vh]">
         <div className="container grid grid-cols-1 md:grid-cols-2">
           <div className="h-[150px] w-[150px] rounded-[2rem] bg-white md:h-[300px] md:w-[300px]">
-            <Image height={300} width={300} src="https://raw.githubusercontent.com/prathamgupta36/prathamgupta36.github.io/main/public/images/mine.png" alt="" />
+            <Image
+              height={300}
+              width={300}
+              src="https://raw.githubusercontent.com/prathamgupta36/prathamgupta36.github.io/main/public/images/mine.png"
+              alt="Pratham Gupta - Cybersecurity Researcher specializing in LLM Vulnerability"
+            />
           </div>
 
           <div className="mt-10 w-full md:mt-0">
-            <p className="text-gradient text-4xl font-extrabold">Hello there,</p>
+            <p className="text-gradient text-4xl font-extrabold">
+              Hello there,
+            </p>
             <p className="text-xl">
-              my name is Pratham Gupta and I'm a cybersecurity researcher. I love working on open-source projects and interesting research ideas pertaining cybersecurity, LLM's, quantum computing, and education.
-              <br /> <br /> At the moment I'm working on my open-source project{" "}
+              my name is Pratham Gupta and I&apos;m a cybersecurity researcher.
+              I love working on open-source projects and interesting research
+              ideas pertaining cybersecurity, LLM&apos;s, quantum computing,
+              and education.
+              <br /> <br /> At the moment I&apos;m working on my open-source
+              project{" "}
               <Link
                 target="_blank"
                 href="https://github.com/pwncollege/ctf-archive"
               >
                 CTF Archive
               </Link>{" "}
-              and I'm also working on learning more about LLM's in cybersecurity education.
+              and I&apos;m also working on learning more about LLM&apos;s in
+              cybersecurity education.
             </p>
             <div className="mt-7 flex space-x-8">
               <IconButton target="_blank" href="https://github.com/prathamgupta36">
